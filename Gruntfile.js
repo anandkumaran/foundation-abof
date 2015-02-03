@@ -14,8 +14,8 @@ module.exports = function (grunt) {
         concat: {
             css: {
                 src: [
-                    'css/bootstrap.min.css',
-                    'css/font-awesome.css',
+                    'css/foundation.css',
+                    'css/foundation-icons.css',
                     'css/custom-styles.css'
                 ],
                 dest: 'css/dest/production.min.css'
@@ -23,7 +23,7 @@ module.exports = function (grunt) {
             js: {
                 src: [
                     'js/jquery.min.js',
-                    'js/bootstrap.min.js',
+                    'js/foundation.min.js',
                     'js/custom.js'
                 ],
                 dest: 'js/dest/production.min.js'
