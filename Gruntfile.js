@@ -43,7 +43,7 @@ module.exports = function (grunt) {
             }
         }, 
         watch: {
-            files: ['js/scripts.js','index.php','css/styles.scss'],
+            files: ['js/scripts.js','*.php','css/styles.scss'],
             tasks: ['sass', 'concat', 'cssmin', 'jshint', 'uglify'],
             options: {
                 livereload: true
