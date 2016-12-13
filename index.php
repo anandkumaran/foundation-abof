@@ -27,7 +27,7 @@
     </li> 
   </ul> <!-- Left Nav Section --> 
 
-    <ul class="left"> <li><a href="#">Left Nav Button</a></li> 
+    <ul class="left"> <li><a href="contactus.php">Contact Form demo</a></li> 
     </ul> 
   </section> 
   

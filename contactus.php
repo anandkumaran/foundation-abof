@@ -40,33 +40,33 @@
 			<form name="frmContactUs" id="frmContactUs">
 				<div class="row">
 					<div class="large-12 columns">
-						<label>First Name
-							<input type="text" placeholder="First Name" />
+						<label class="form-control">First Name
+							<input type="text" name="firstname" placeholder="First Name" />
 						</label>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="large-12 columns">
-						<label>Last Name
-							<input type="text" placeholder="Last Name" />
+						<label class="form-control">Last Name
+							<input type="text" name="lastname" placeholder="Last Name" />
 						</label>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="large-12 columns">
-						<label>Email
-							<input type="email" placeholder="Email Address" />
+						<label class="form-control">Email
+							<input type="email" name="email" placeholder="Email Address" />
 						</label>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="large-12 columns">
-						<label>Country
-							<select name="selCountry">
-								<option>Select Country</option>
+						<label class="form-control">Country
+							<select name="country">
+								<option value="">Select Country</option>
 								<option value="India">India</option>
 							</select>
 						</label>
@@ -75,16 +75,16 @@
 
 				<div class="row">
 					<div class="large-12 columns">
-						<label>
+						<label class="form-control">
 							Pincode
-							<input type="text" name="txtPincode" id="txtPincode" />
+							<input type="text" name="pincode" id="txtPincode" />
 						</label>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="large-12 columns">
-						<a role="button" href="#" class="button">Submit</a>
+						<button type="submit">Submit</button>
 					</div>
 				</div>				
 			</form>
@@ -104,9 +104,9 @@
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/foundation.min.js"></script>
 	<script type="text/javascript" src="js/modernizr.js"></script>
+	<script src="js/jquery.validate.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<script>
-
 		$(document).foundation({
 			accordion: { 
 				callback : function (accordion) {
