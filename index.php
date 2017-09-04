@@ -15,7 +15,8 @@
     <li class="name"> <h1><a href="#">My Site</a></h1> </li>
    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone --> 
    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li> 
-  </ul> 
+  </ul>
+   
 
   <section class="top-bar-section"> <!-- Right Nav Section --> 
    <ul class="right"> 
@@ -27,7 +28,7 @@
     </li> 
   </ul> <!-- Left Nav Section --> 
 
-    <ul class="left"> <li><a href="#">Left Nav Button</a></li> 
+    <ul class="left"> <li><a href="contactus.php">Contact Form demo</a></li> 
     </ul> 
   </section> 
   
