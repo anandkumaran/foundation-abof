@@ -170,6 +170,18 @@ select.error {
   background-color: #111;
 }
 
+.warning {
+  @extend .message;
+  border-color: yellow;
+  background-color: #111;
+}
+
+.warning {
+  @extend .message;
+  border-color: yellow;
+  background-color: #111;
+}
+
 .container {
   width: 100%;
 }
